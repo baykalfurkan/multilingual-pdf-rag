@@ -214,5 +214,3 @@ if not uploaded_file and st.session_state.get('query_attempted'):
 
 if uploaded_file and not st.session_state['document_processed']:
     st.info("⏳ Document is being processed. Please wait...")
-
- #           streamlit run "f:/Visual Studio Projeler/VS_Code/sda_env/app.py" 

@@ -13,7 +13,7 @@ This project is an application that allows users to upload PDF documents and ask
 - 💬 **User-friendly interface**: Q&A demonstration with Streamlit chat UI
 
 ## 🌐 Deploy Link
-- https://smart-document-assistant.streamlit.app/
+- https://multilingual-pdf-rag.streamlit.app/
 
 ## ⚙️ Requirements
 
@@ -25,8 +25,8 @@ This project is an application that allows users to upload PDF documents and ask
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/baykalfurkan/Smart-Document-Assistant.git
-   cd smart-document-assistant
+   git clone https://github.com/baykalfurkan/multilingual-pdf-rag.git
+   cd multilingual-pdf-rag
    ```
 2. Create and activate a virtual environment:
    ```bash
@@ -60,13 +60,18 @@ On the page that opens in your browser, upload your PDF file and proceed to the 
 4. After the document is processed, the number of pages, number of characters, and detected language will be displayed in the sidebar.
 5. Get answers from the RAG assistant by typing your questions in the chat box.
 
+## 📽️ Demo
+![App Demo](assets/demo.gif)
+
 ## 📁 Project File Structure
 ```
-smart-document-assistant/
-├── app.py              # Main Streamlit application code
-├── requirements.txt    # List of dependencies
-├── .env                # .env file
-└── chroma_db/          # Chroma database persistent folder
+multilingual-pdf-rag/
+├── app.py            
+├── requirements.txt    
+├── .env                
+├── assets/            
+│   └── demo.gif       
+└── README.md
 ```
 
 ## 🤝 Contribution
